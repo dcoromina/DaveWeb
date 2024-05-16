@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+const colors = require("tailwindcss/colors");
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        animatedgradient: {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+      },
+      backgroundSize: {
+        "300%": "300%",
+      },
+      animation: {
+        gradient: "animatedgradient 6s ease infinite alternate",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +28,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [ require('tailwindcss-animated')],
+  colors: {
+    ...colors,
+    primary: colors.red,
+  },
+  plugins: [require("tailwindcss-animated")],
 };
 export default config;
