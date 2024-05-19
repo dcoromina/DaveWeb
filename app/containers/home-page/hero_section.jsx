@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section>
       <NavSection />
       {/* body */}
-      <div className="text-white flex flex-col w-full h-[calc(100vh-120px)] lg:justify-between md:justify-between md:flex-row lg:flex-row md:text-left lg:text-left items-center text-center mb-10">
+      <div className="text-white flex flex-col w-full h-[calc(100vh-120px)] lg:justify-between md:justify-between md:flex-row lg:flex-row md:text-left lg:text-left items-center text-center">
         <div className="flex flex-col justify-center lg:space-y-10 lg:max-w-fit  w-full items-center text-pretty  ">
           <div className="w-3/4 space-y-5 md:space-y-10 lg:space-y-15 ">
             <div className="font-bold text-3xl sm:text-4xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-400">
@@ -30,7 +30,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end  w-3/4 h-[calc(100vh-120px)]">
+        <div className="flex justify-end  w-3/4 h-full bg-white">
           <Image
             className=" object-scale-down max-h-full m-auto "
             src="https://dcoromina.s-ul.eu/image/ZqNI27Hv"
@@ -39,7 +39,6 @@ const HeroSection = () => {
             alt="image of author"
           />
         </div>
-        <ScrollDownIndicator />
       </div>
     </section>
   );

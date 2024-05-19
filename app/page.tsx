@@ -11,23 +11,14 @@ import LangComp from "./components/LangComp";
 export default function Home() {
   return (
     <main>
-      <div className="flex min-h-screen  flex-col items-center md:px-20 lg:px-20 px-5  snap-y  h-screen overflow-x-hidden">
-        <div className="snap-normal snap-center shrink-0">
-          <HeroSection />
-        </div>
-        <LangComp></LangComp>
-        <div className="snap-normal snap-center shrink-0">
-          <AboutSection />
-        </div>
-        <div className="snap-normal snap-center shrink-0">
-          <ProjectsSection />
-        </div>
-        <div className="snap-normal snap-center shrink-0">
-          <CareerSection />
-        </div>
-        <div className="snap-normal snap-start shrink-0 w-full">
-          <Footer />
-        </div>
+      <div className="flex flex-col items-center px-10 sm:px-20 md:px-20 lg:px-20  overflow-x-hidden">
+        <HeroSection />
+
+        <ScrollDownIndicator />
+
+        <AboutSection />
+
+        <Footer />
       </div>
     </main>
   );
