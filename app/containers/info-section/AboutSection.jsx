@@ -66,11 +66,13 @@ const AboutSection = () => {
         <div className="flex flex-col items-center space-y-5">
           <h2 className="font-bold text-3xl white">LANGUAGES</h2>
           <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-5 md:space-y-0 lg:space-y-0">
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')] w-full md:w-full lg:w-full h-[100px] md:h-[150px] lg:h-1/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end">
-              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl min-w-min justify-center rounded-xl bg-gradient-to-l from-black to-transparent">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')] w-full md:w-full lg:w-full h-[100px] md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:shadow-inner hover:shadow-slate-500">
+              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent">
                 <div className="text-2xl md:text-3xl font-bold  ">ENGLISH</div>
                 <div className="flex flex-row items-center space-x-2">
-                  <div className="text-xl md:text-2xl font-bold ">C2</div>
+                  <div className="text-xl md:text-2xl font-bold text-orange-500 ">
+                    C2
+                  </div>
                   <div className="">
                     <Image
                       className=" object-scale-down max-h-full m-auto"
@@ -83,11 +85,13 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/9iU9x0hZ')] w-full md:full lg:w-full h-[100px] md:h-[150px] lg:h-1/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end">
-              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl min-w-min justify-center rounded-xl bg-gradient-to-l from-black to-transparent">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/9iU9x0hZ')] w-full md:full lg:w-full h-[100px] md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:shadow-inner hover:shadow-slate-500">
+              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent">
                 <div className="text-2xl md:text-3xl font-bold  ">SPANISH</div>
                 <div className="flex flex-row items-center space-x-2">
-                  <div className="text-xl md:text-2xl font-bold ">NATIVE</div>
+                  <div className="text-xl md:text-2xl font-bold text-orange-500 ">
+                    NATIVE
+                  </div>
                   <div className="">
                     <Image
                       className=" object-scale-down max-h-full m-auto"
@@ -100,11 +104,13 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/n7ZQcdUJ')] w-full md:full lg:w-full h-[100px] md:h-[150px] lg:h-1/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end">
-              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl min-w-min justify-center rounded-xl bg-gradient-to-l from-black to-transparent">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/n7ZQcdUJ')] w-full md:full lg:w-full h-[100px] md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:shadow-inner hover:shadow-slate-500">
+              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent">
                 <div className="text-2xl md:text-3xl font-bold  ">CATALAN</div>
                 <div className="flex flex-row items-center space-x-2">
-                  <div className="text-xl md:text-2xl font-bold ">NATIVE</div>
+                  <div className="text-xl md:text-2xl font-bold text-orange-500">
+                    NATIVE
+                  </div>
                   <div className="">
                     <Image
                       className=" object-scale-down max-h-full m-auto"
@@ -117,11 +123,13 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/resources/sKlkHFzv')] w-full md:full lg:w-full h-[100px] md:h-[150px] lg:h-1/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end">
-              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl min-w-min justify-center rounded-xl bg-gradient-to-l from-black to-transparent">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/resources/sKlkHFzv')] w-full md:full lg:w-full h-[100px] md:h-[150px] lg:h-6/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:shadow-inner hover:shadow-slate-500 ">
+              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black from-0% to-70% to-transparent">
                 <div className="text-2xl md:text-3xl font-bold  ">ITALIAN</div>
                 <div className="flex flex-row items-center space-x-2">
-                  <div className="text-xl md:text-2xl font-bold ">A2</div>
+                  <div className="text-xl md:text-2xl font-bold text-orange-500">
+                    A2
+                  </div>
                   <div className="">
                     <Image
                       className=" object-scale-down max-h-full m-auto"

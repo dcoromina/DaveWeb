@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="font-bold text-3xl sm:text-4xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-400">
               Hi There!
             </div>
-            <div className="font-bold text-4xl sm:text-5xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-black ">
+            <div className="font-bold text-4xl sm:text-5xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-black">
               I&apos;M DAVID
             </div>
             <div className="lg:w-1/2 text-2xl justify-center ">
