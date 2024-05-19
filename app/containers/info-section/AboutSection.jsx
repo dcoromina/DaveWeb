@@ -65,7 +65,7 @@ const AboutSection = () => {
         {/* ********************** Languages block ******************* */}
         <div className="flex flex-col items-center space-y-5">
           <h2 className="font-bold text-3xl white">LANGUAGES</h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-5 md:space-y-0 lg:space-y-0">
             <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')] w-full md:w-full lg:w-full h-[100px] md:h-[150px] lg:h-1/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end">
               <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl min-w-min justify-center rounded-xl bg-gradient-to-l from-black to-transparent">
                 <div className="text-2xl md:text-3xl font-bold  ">ENGLISH</div>
