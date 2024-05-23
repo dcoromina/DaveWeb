@@ -8,21 +8,25 @@ import NavSection from "./components/NavSection/NavSection";
 import Footer from "./components/Footer";
 import ScrollDownIndicator from "./components/ScrollDown";
 import LangComp from "./components/LangComp";
+import { NextUIProvider } from "@nextui-org/react";
 
 export default function Home() {
   return (
-    <main>
-      <div className="flex flex-col items-center px-4 sm:px-20 md:px-20 lg:px-20  overflow-x-hidden">
-        <HeroSection />
+    <NextUIProvider>
+      <main>
+        <NavSection />
+        <div className="flex flex-col items-center px-4 sm:px-20 md:px-20 lg:px-20  overflow-x-hidden">
+          <HeroSection />
 
-        <ScrollDownIndicator />
+          <ScrollDownIndicator />
 
-        <AboutSection />
-        <CareerSection />
-        <ContactSection />
+          <AboutSection />
+          <CareerSection />
+          <ContactSection />
 
-        <Footer />
-      </div>
-    </main>
+          <Footer />
+        </div>
+      </main>
+    </NextUIProvider>
   );
 }

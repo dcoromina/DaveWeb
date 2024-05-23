@@ -1,53 +1,89 @@
+"use client";
+import { useState } from "react";
 import React from "react";
 import Image from "next/image";
 
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
+  Link,
+  Button,
+} from "@nextui-org/react";
+
 function NavSection() {
-  const navLinks = [
-    {
-      title: "About",
-      path: "#about",
-    },
-    {
-      title: "Projects",
-      path: "#projects",
-    },
-    {
-      title: "Contact",
-      path: "#contact",
-    },
-  ];
   return (
-    <div className="text-white flex w-full flex-row justify-between py-5 text-base items-center ">
-      <Image
-        src="https://dcoromina.s-ul.eu/7o6fnBrL"
-        width={50}
-        height={50}
-        alt="Logo of the author"
-      />
-      <div className=" flex flex-row space-x-10 justify-center w-2/4 ">
-        <div className="  font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
-          About
-        </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
-          Skills
-        </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
-          Career
-        </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
-          Projects
-        </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
-          Contact
-        </div>
-      </div>
-      <Image
-        src="https://dcoromina.s-ul.eu/logos/ezNndJcm"
-        width={35}
-        height={35}
-        alt="Clickable linked in logo"
-      />
-    </div>
+    <Navbar className="bg-transparent">
+      <NavbarContent>
+        <NavbarBrand>
+          <Image
+            src="https://dcoromina.s-ul.eu/7o6fnBrL"
+            width={50}
+            height={50}
+            alt="Logo of the author"
+          />
+        </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        <NavbarItem>
+          <Link
+            color="primary"
+            href="#"
+            className="hover:border-solid hover:border-orange-400 hover:border-b-3"
+          >
+            About
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive>
+          <Link
+            href="#"
+            color="primary"
+            aria-current="page"
+            className="hover:border-solid hover:border-orange-400 hover:border-b-3"
+          >
+            Career
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="primary"
+            href="#"
+            className="hover:border-solid hover:border-orange-400 hover:border-b-3"
+          >
+            Projects
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            color="primary"
+            href="#"
+            className="hover:border-solid hover:border-orange-400 hover:border-b-3"
+          >
+            Contact
+          </Link>
+        </NavbarItem>
+      </NavbarContent>
+      <NavbarContent justify="end">
+        <NavbarItem>
+          <Link
+            color="primary"
+            href="www.linkedin.com/in/david-coromina-470635208"
+          >
+            <Image
+              src="https://dcoromina.s-ul.eu/logos/ezNndJcm"
+              width={40}
+              height={50}
+              alt="Logo of the author"
+            />
+          </Link>
+        </NavbarItem>
+      </NavbarContent>
+    </Navbar>
   );
 }
 

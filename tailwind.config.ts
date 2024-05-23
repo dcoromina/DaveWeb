@@ -1,3 +1,4 @@
+import { nextui } from "@nextui-org/theme";
 import type { Config } from "tailwindcss";
 const colors = require("tailwindcss/colors");
 const config: Config = {
@@ -5,9 +6,15 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/[object Object].js",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#ffffffff",
+        secondary: "rgb(251 146 60)",
+      },
       keyframes: {
         animatedgradient: {
           "0%": { backgroundPosition: "0% 50%" },
@@ -32,6 +39,7 @@ const config: Config = {
     ...colors,
     primary: colors.red,
   },
-  plugins: [require("tailwindcss-animated")],
+  darkMode: "class",
+  plugins: [nextui()],
 };
 export default config;

@@ -6,15 +6,14 @@ import NavSection from "../../components/NavSection/NavSection";
 const HeroSection = () => {
   return (
     <section>
-      <NavSection />
       {/* body */}
       <div className="text-white flex flex-col w-full h-[calc(100vh-120px)] lg:justify-between md:justify-between md:flex-row lg:flex-row md:text-left lg:text-left items-center text-center">
         <div className="flex flex-col justify-center lg:space-y-10 lg:max-w-fit  w-full items-center text-pretty  ">
           <div className="w-3/4 space-y-5 md:space-y-10 lg:space-y-15 ">
-            <div className="font-bold text-3xl sm:text-4xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-400">
+            <div className="font-bold text-3xl md:text-6xl lg:text-7xl  text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-400">
               Hi There!
             </div>
-            <div className="font-bold text-4xl sm:text-5xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-black">
+            <div className="font-bold text-4xl md:text-7xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-black">
               I&apos;M DAVID
             </div>
             <div className="lg:w-1/2 text-xl justify-center ">
