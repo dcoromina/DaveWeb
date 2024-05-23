@@ -2,6 +2,20 @@ import React from "react";
 import Image from "next/image";
 
 function NavSection() {
+  const navLinks = [
+    {
+      title: "About",
+      path: "#about",
+    },
+    {
+      title: "Projects",
+      path: "#projects",
+    },
+    {
+      title: "Contact",
+      path: "#contact",
+    },
+  ];
   return (
     <div className="text-white flex w-full flex-row justify-between py-5 text-base items-center ">
       <Image
@@ -11,17 +25,20 @@ function NavSection() {
         alt="Logo of the author"
       />
       <div className=" flex flex-row space-x-10 justify-center w-2/4 ">
-        <div className=" hover:font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="  font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
           About
         </div>
-        <div className="hover:font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
           Skills
         </div>
-        <div className="hover:font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
           Career
         </div>
-        <div className="hover:font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
           Projects
+        </div>
+        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+          Contact
         </div>
       </div>
       <Image

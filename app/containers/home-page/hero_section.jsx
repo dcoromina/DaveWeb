@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ScrollDownIndicator from "../../components/ScrollDown";
-import NavSection from "../../components/NavSection";
+import NavSection from "../../components/NavSection/NavSection";
 
 const HeroSection = () => {
   return (
@@ -17,7 +17,7 @@ const HeroSection = () => {
             <div className="font-bold text-4xl sm:text-5xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-black">
               I&apos;M DAVID
             </div>
-            <div className="lg:w-1/2 text-2xl justify-center ">
+            <div className="lg:w-1/2 text-xl justify-center ">
               Developer entrepenour athlete dreamer and all-around lunatic
             </div>
             <div className="flex flex-row justify-center md:justify-start lg:justify-start space-x-4">
@@ -30,7 +30,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end  w-3/4 h-full bg-white">
+        <div className="flex justify-end  w-3/4 h-4/6 md:h-full  ">
           <Image
             className=" object-scale-down max-h-full m-auto "
             src="https://dcoromina.s-ul.eu/image/ZqNI27Hv"
