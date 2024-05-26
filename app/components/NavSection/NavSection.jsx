@@ -17,7 +17,7 @@ import {
 
 function NavSection() {
   return (
-    <Navbar className="bg-transparent">
+    <Navbar className="bg-transparent" position="static">
       <NavbarContent>
         <NavbarBrand>
           <Image

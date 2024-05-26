@@ -8,6 +8,7 @@ const CareerSection = () => {
           EXPERIENCE
         </div>
       </div>
+
       <div className="flex flex-row w-screen justify-evenly items-start font-medium px-5  ">
         <div className="text-orange-400 font-bold active:text-orange-400 hover:text-orange-400 cursor-pointer hover:border-b-2 border-orange-400">
           Myoo.io
@@ -51,7 +52,7 @@ const CareerSection = () => {
         <ul>- Main software developer</ul>
       </div>
       <div className="flex flex-col w-4/5 h-2/5 justify-evenly">
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-400  p-2">
+        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black  p-2">
           <Image
             className=" object-scale-down max-h-full m-auto"
             src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"
@@ -61,7 +62,7 @@ const CareerSection = () => {
           />
           <p>Flutter</p>
         </div>
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-400  p-2">
+        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black  p-2">
           <Image
             className=" object-scale-down max-h-full m-auto"
             src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"
@@ -71,7 +72,7 @@ const CareerSection = () => {
           />
           <p>Flutter</p>
         </div>
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-400  p-2">
+        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black p-2">
           <Image
             className=" object-scale-down max-h-full m-auto"
             src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"
@@ -81,7 +82,7 @@ const CareerSection = () => {
           />
           <p>Flutter</p>
         </div>
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-400  p-2">
+        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black  p-2">
           <Image
             className=" object-scale-down max-h-full m-auto"
             src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"

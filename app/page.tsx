@@ -18,8 +18,6 @@ export default function Home() {
         <div className="flex flex-col items-center px-4 sm:px-20 md:px-20 lg:px-20  overflow-x-hidden">
           <HeroSection />
 
-          <ScrollDownIndicator />
-
           <AboutSection />
           <CareerSection />
           <ContactSection />

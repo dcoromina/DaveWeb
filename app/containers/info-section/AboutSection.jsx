@@ -19,7 +19,7 @@ const AboutSection = () => {
 
       <div className="flex flex-row justify-evenly space-y-5 md:space-y-0 lg:space-y-0 md:flex-row lg:flex-row md:justify-evenly lg:justify-evenly w-full items-center ">
         {/* ******************** Hobbies block ******************* */}
-        <div className="flex flex-col items-center space-y-5 2/3 md:w-1/2 ">
+        <div className="flex flex-col items-center space-y-5  md:w-1/2 ">
           <h2 className="font-bold text-2xl ">HOBBIES</h2>
           <div className="grid grid-cols-1 gap-4  md:grid-cols-2 lg:grid-cols-2">
             <div className="w-50 h-50 p-5 rounded-xl border-slate-400 border-2 border-opacity-10 hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400  ">
@@ -65,7 +65,7 @@ const AboutSection = () => {
           </div>
         </div>
         {/* ********************** Languages block ******************* */}
-        <div className="flex flex-col items-center space-y-5 w-3/5">
+        <div className="flex flex-col items-center space-y-5 w-2/4">
           <h2 className="font-bold text-2xl white">LANGUAGES</h2>
           <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-10 md:space-y-0 lg:space-y-0">
             <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')] w-full md:w-full lg:w-full h-[100px] md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:shadow-inner hover:shadow-orange-500">
