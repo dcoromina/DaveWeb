@@ -18,7 +18,7 @@ const AboutSection = () => {
         My journey in [Your Profession] has been driven by a love for innovation
         and a desire to continuously learn and grow. Each project I undertake is
         a new opportunity to challenge myself and craft unique solutions
-        tailored to my clients' needs. Explore my portfolio to see some of my
+        tailored to my clients needs. Explore my portfolio to see some of my
         latest work, and feel free to reach out if youd like to collaborate or
         learn more about my process.
       </div>
@@ -74,8 +74,8 @@ const AboutSection = () => {
         <div className="flex flex-col items-center space-y-5 w-2/4 ">
           <h2 className="font-bold text-2xl white">LANGUAGES</h2>
           <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-5 md:space-y-0 lg:space-y-0 ">
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')]  md:w-full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto ">
-              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')]  md:w-full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto  ">
+              <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group ">
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden">
                   ENGLISH
                 </div>
@@ -95,9 +95,10 @@ const AboutSection = () => {
                     />
                   </div>
                 </div>
-                <div>
+                <div className="w-full">
                   <p className="hidden group-hover:block ">
-                    - Studied and worked for a summer in ireland
+                    - Studied and worked for 3 months in ireland as part of the
+                    Erasmus+ program
                   </p>
                   <p className="hidden group-hover:block">
                     - Cambridge certificate and title
@@ -126,7 +127,7 @@ const AboutSection = () => {
                     />
                   </div>
                 </div>
-                <div>
+                <div className="w-full">
                   <p className="hidden group-hover:block">
                     - Learned at childhood
                   </p>
@@ -158,7 +159,7 @@ const AboutSection = () => {
                     />
                   </div>
                 </div>
-                <div>
+                <div className="w-full">
                   <p className="hidden group-hover:block">
                     - Learned and spoken since childhood
                   </p>
@@ -189,7 +190,7 @@ const AboutSection = () => {
                     />
                   </div>
                 </div>
-                <div>
+                <div className="w-full">
                   <p className="hidden group-hover:block">
                     - Started learning a short time ago
                   </p>
