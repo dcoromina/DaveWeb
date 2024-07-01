@@ -6,6 +6,7 @@ import ProjectsSection from "./containers/info-section/ProjectsSection";
 import CareerSection from "./containers/info-section/CareerSection";
 import NavSection from "./components/NavSection/NavSection";
 import Footer from "./components/Footer";
+import ExperienceSection from "./data";
 import ScrollDownIndicator from "./components/ScrollDown";
 import LangComp from "./components/LangComp";
 import { NextUIProvider } from "@nextui-org/react";
@@ -15,13 +16,11 @@ export default function Home() {
     <NextUIProvider>
       <main>
         <NavSection />
-        <div className="flex flex-col items-center px-4 sm:px-20 md:px-20 lg:px-20  overflow-x-hidden">
+        <div className="flex flex-col items-center px-4 sm:px-20 md:px-20 lg:px-20  overflow-hidden">
           <HeroSection />
-
           <AboutSection />
           <CareerSection />
           <ContactSection />
-
           <Footer />
         </div>
       </main>

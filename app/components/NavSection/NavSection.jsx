@@ -76,9 +76,9 @@ function NavSection() {
           >
             <Image
               src="https://dcoromina.s-ul.eu/logos/ezNndJcm"
-              width={40}
-              height={50}
-              alt="Logo of the author"
+              width={30}
+              height={40}
+              alt="Linkedin logo"
             />
           </Link>
         </NavbarItem>

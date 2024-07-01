@@ -2,27 +2,27 @@ import React from "react";
 import Image from "next/image";
 const CareerSection = () => {
   return (
-    <div className="h-screen w-screen flex flex-col space-y-7 items-center py-5">
+    <div className=" w-screen flex flex-col space-y-7 items-center py-5">
       <div className="flex flex-col  items-start px-20">
         <div className="text-orange-400 font-bold text-4xl md:text-7xl lg:text-7xl">
           EXPERIENCE
         </div>
       </div>
 
-      <div className="flex flex-row w-screen justify-evenly items-start font-medium px-5  ">
-        <div className="text-orange-400 font-bold active:text-orange-400 hover:text-orange-400 cursor-pointer hover:border-b-2 border-orange-400">
+      <div className="flex flex-wrap w-screen justify-evenly items-start font-medium px-5 group-hover:bg-white ">
+        <div className=" font-bold active:text-orange-400 hover:text-orange-400 cursor-pointer active:border-b-2 border-orange-400  p-4 ">
           Myoo.io
         </div>
-        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer">
+        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer p-4 ">
           MyHealp
         </div>
-        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer">
+        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer  p-4 ">
           GourmetFuel
         </div>
-        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer">
+        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer p-4 ">
           Siolot
         </div>
-        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer">
+        <div className="text-white active:text-orange-400 hover:text-orange-400 cursor-pointer p-4 ">
           Misc.
         </div>
       </div>
@@ -51,8 +51,8 @@ const CareerSection = () => {
         <ul>- Responsible for building and managing a dev team</ul>
         <ul>- Main software developer</ul>
       </div>
-      <div className="flex flex-col w-4/5 h-2/5 justify-evenly">
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black  p-2">
+      <div className="flex flex-col w-4/5 space-y-5 justify-evenly">
+        <div className="flex flex-row w-full items-center hover:cursor-pointer hover:border-opacity-60  rounded-lg bg-gradient-to-r from-orange-500 to-black  p-2">
           <Image
             className=" object-scale-down max-h-full m-auto"
             src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"
@@ -62,7 +62,7 @@ const CareerSection = () => {
           />
           <p>Flutter</p>
         </div>
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black  p-2">
+        <div className="flex flex-row w-3/4 items-center hover:cursor-pointer hover:border-opacity-60  rounded-lg bg-gradient-to-r from-orange-900 to-black  p-2">
           <Image
             className=" object-scale-down max-h-full m-auto"
             src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"
@@ -70,27 +70,7 @@ const CareerSection = () => {
             height={40}
             alt="image of author"
           />
-          <p>Flutter</p>
-        </div>
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black p-2">
-          <Image
-            className=" object-scale-down max-h-full m-auto"
-            src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"
-            width={40}
-            height={40}
-            alt="image of author"
-          />
-          <p>Flutter</p>
-        </div>
-        <div className="flex flex-row items-center justify-start border-solid border-white border-opacity-20 hover:cursor-pointer hover:border-opacity-60 border-2 rounded-lg bg-gradient-to-r from-orange-500 to-black  p-2">
-          <Image
-            className=" object-scale-down max-h-full m-auto"
-            src="https://dcoromina.s-ul.eu/language-logos/aWJsz0n9"
-            width={40}
-            height={40}
-            alt="image of author"
-          />
-          <p>Flutter</p>
+          <p>React</p>
         </div>
       </div>
     </div>
