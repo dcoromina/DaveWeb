@@ -90,7 +90,7 @@ const BookList = ({ books }) => {
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
-                src="https://dcoromina.s-ul.eu/career/UaOSuGDu"
+                src="https://dcoromina.s-ul.eu/career/rU1aDGKh"
                 width={50}
                 height={50}
                 alt="image of author"
@@ -127,7 +127,7 @@ const BookList = ({ books }) => {
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
-                src="https://dcoromina.s-ul.eu/career/UaOSuGDu"
+                src="https://dcoromina.s-ul.eu/career/ZJpdRc5J"
                 width={50}
                 height={50}
                 alt="image of author"
