@@ -2,22 +2,22 @@ import React from "react";
 import Image from "next/image";
 const BookList = ({ books }) => {
   return (
-    <div className=" w-fit ">
+    <div className="">
       <div
         role="tablist"
-        className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md w-fit"
+        className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md w-fit  "
       >
         {/* Tab1 */}
         <input
           type="radio"
           name="my_tabs_1"
           role="tab"
-          className="tab checked:text-orange-500 checked:font-bold hover:text-orange-500 checked:border-b-2 font-bold"
+          className="tab checked:text-orange-500 checked:font-bold hover:text-orange-500 checked:border-b-2 font-bold "
           aria-label="Myoo.io"
           defaultChecked
         />
-        <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-center space-y-5 w-full ">
+        <div role="tabpanel" className="tab-content p-10 ">
+          <div className="flex flex-col items-start space-y-5 w-full">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
@@ -53,7 +53,7 @@ const BookList = ({ books }) => {
           aria-label="MyHealp"
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-center space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full ">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
@@ -90,7 +90,7 @@ const BookList = ({ books }) => {
           aria-label="GourmetFuel"
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-center space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full ">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
@@ -127,7 +127,7 @@ const BookList = ({ books }) => {
           aria-label="SiOlot"
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-center space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full ">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
@@ -160,7 +160,7 @@ const BookList = ({ books }) => {
           aria-label="Misc."
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-center space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full ">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
