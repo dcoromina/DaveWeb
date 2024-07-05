@@ -17,17 +17,17 @@ const BookList = ({ books }) => {
           defaultChecked
         />
         <div role="tabpanel" className="tab-content p-10 ">
-          <div className="flex flex-col items-start space-y-5 w-full">
+          <div className="flex flex-col items-start space-y-5 w-full text-small">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
                 src="https://dcoromina.s-ul.eu/career/UaOSuGDu"
-                width={50}
-                height={50}
+                width={40}
+                height={40}
                 alt="image of author"
               />
               <div className="flex flex-col w-96 ">
-                <div className="flex flex-row text-wrap">
+                <div className="flex flex-row ">
                   <p>Chief Technology Officer @ </p>{" "}
                   <p className="text-orange-400 font-bold">Myoo.io</p>
                 </div>
@@ -53,7 +53,7 @@ const BookList = ({ books }) => {
           aria-label="MyHealp"
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-start space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full text-small">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
@@ -90,7 +90,7 @@ const BookList = ({ books }) => {
           aria-label="GourmetFuel"
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-start space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full text-small">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
@@ -127,7 +127,7 @@ const BookList = ({ books }) => {
           aria-label="SiOlot"
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-start space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full text-small">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
@@ -160,7 +160,7 @@ const BookList = ({ books }) => {
           aria-label="Misc."
         />
         <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-start space-y-5 w-full ">
+          <div className="flex flex-col items-start space-y-5 w-full text-small">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
