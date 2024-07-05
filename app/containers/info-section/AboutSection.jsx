@@ -5,7 +5,7 @@ import LangComp from "@/app/components/LangComp";
 const AboutSection = () => {
   return (
     <div className="flex flex-col items-center min-h-min py-5 space-y-10 w-full">
-      <div className="text-orange-400 font-bold text-7xl text-center">
+      <div className="text-orange-400 font-bold text-3xl text-center">
         ABOUT ME
       </div>
       <div className=" text-pretty text-center px-5 md:w-2/4">

@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 const BookList = ({ books }) => {
   return (
-    <div className="">
+    <div className="flex flex-col items-center space-y-5">
+      <p className="text-3xl font-bold text-orange-500 uppercase">Career</p>
       <div
         role="tablist"
         className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md w-fit  "
@@ -183,7 +184,7 @@ const BookList = ({ books }) => {
                   height={30}
                   alt="image of author"
                 />
-                <p>Basketball team coach</p>
+                <p>Basketball coach</p>
               </div>
               {/* ---------- Item --------------- */}
               <div className="flex flex-row items-center space-x-5 justify-start">
@@ -205,7 +206,7 @@ const BookList = ({ books }) => {
                   height={40}
                   alt="image of author"
                 />
-                <p>And other odd and summer jobs</p>
+                <p>Other odd and summer jobs</p>
               </div>
             </div>
           </div>
