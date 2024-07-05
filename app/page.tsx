@@ -17,7 +17,7 @@ export default function Home() {
     <NextUIProvider>
       <main>
         <NavSection />
-        <div className="flex flex-col items-center px-4 sm:px-20 md:px-20 lg:px-20  overflow-hidden">
+        <div className="flex flex-col items-center px-4 sm:px-20 md:px-20 lg:px-20 overflow-hidden">
           <HeroSection />
           <AboutSection />
 
