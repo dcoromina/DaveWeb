@@ -3,7 +3,7 @@ import Image from "next/image";
 const BookList = ({ books }) => {
   return (
     <div className="">
-      <div role="tablist" className="tabs tab ">
+      <div role="tablist" className="tabs ">
         {/* Tab1 */}
         <input
           type="radio"
@@ -90,7 +90,7 @@ const BookList = ({ books }) => {
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
-                src="https://dcoromina.s-ul.eu/career/rU1aDGKh"
+                src="https://dcoromina.s-ul.eu/career/UaOSuGDu"
                 width={50}
                 height={50}
                 alt="image of author"
@@ -127,8 +127,8 @@ const BookList = ({ books }) => {
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
-                src="https://dcoromina.s-ul.eu/career/ZJpdRc5J"
-                width={100}
+                src="https://dcoromina.s-ul.eu/career/UaOSuGDu"
+                width={50}
                 height={50}
                 alt="image of author"
               />
@@ -184,40 +184,6 @@ const BookList = ({ books }) => {
         </div>
         {/* / Career menu */}
       </div>
-
-      {/* <button key={2}>patata</button>
-      <ul>
-        {books.map((book) => (
-          <div className="flex flex-col items-center space-y-5 w-full ">
-            <div className="flex flex-row justify-start space-x-5">
-              <Image
-                className=" object-scale-down max-h-full m-auto "
-                src={book.logo}
-                width={50}
-                height={50}
-                alt="image of author"
-              />
-              <div className="flex flex-col w-96 ">
-                <div className="flex flex-row text-wrap">
-                  <p key={book.id}>{book.position} @</p>{" "}
-                  <p className="text-orange-400" key={book.id}>
-                    {book.company}
-                  </p>
-                </div>
-                <div className="">2022-present</div>
-              </div>
-            </div>
-            <div>
-              <ul>
-                - In charge of building and mantaining the project
-                infraestructure
-              </ul>
-              <ul>- Responsible for building and managing a dev team</ul>
-              <ul>- Main software developer</ul>
-            </div>
-          </div>
-        ))}
-      </ul> */}
     </div>
   );
 };
