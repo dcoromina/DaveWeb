@@ -40,6 +40,6 @@ const config: Config = {
     primary: colors.red,
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [nextui(), require("daisyui")],
 };
 export default config;

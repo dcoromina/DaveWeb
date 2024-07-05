@@ -1,6 +1,7 @@
 import React from "react";
 const experienceData = [
   {
+    id: 1,
     Company: "Myoo.io",
     Years: "2022 - 2024",
     Logo: "url",
@@ -13,6 +14,7 @@ const experienceData = [
     Item3: "Main software developer",
   },
   {
+    id: 2,
     Company: "MyHealp/TracMove",
     Years: "2022 - 2024",
     Logo: "url",
@@ -25,6 +27,7 @@ const experienceData = [
     Item3: "Main software developer",
   },
   {
+    id: 3,
     Company: "GourmetFuel",
     Years: "2022 - 2024",
     Logo: "url",

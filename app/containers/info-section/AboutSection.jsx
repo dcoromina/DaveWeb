@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className="text-orange-400 font-bold text-7xl text-center">
         ABOUT ME
       </div>
-      <div className=" text-pretty text-center">
+      <div className=" text-pretty text-center px-5 md:w-2/4">
         Welcome to my portfolio! I am [Your Name], a passionate and dedicated
         [Your Profession] with a knack for bringing creative ideas to life.I
         specialize in [mention your key skills or areas of expertise] and I am
@@ -74,7 +74,7 @@ const AboutSection = () => {
         <div className="flex flex-col items-center space-y-5 w-2/4 ">
           <h2 className="font-bold text-2xl white">LANGUAGES</h2>
           <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-5 md:space-y-0 lg:space-y-0 ">
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')]  md:w-full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto  ">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')]  md:w-full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto  transition ease-in-out  duration-500 hover:scale-110 ">
               <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group ">
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden">
                   ENGLISH
@@ -95,18 +95,18 @@ const AboutSection = () => {
                     />
                   </div>
                 </div>
-                <div className="w-full">
-                  <p className="hidden group-hover:block ">
+                <div className="w-full ">
+                  <p className="hidden group-hover:block group-hover:transition ease-in-out">
                     - Studied and worked for 3 months in ireland as part of the
                     Erasmus+ program
                   </p>
-                  <p className="hidden group-hover:block">
+                  <p className="hidden group-hover:block group-hover:transition ease-in-out">
                     - Cambridge certificate and title
                   </p>
                 </div>
               </div>
             </div>
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/9iU9x0hZ')] w-full md:full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto  ">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/9iU9x0hZ')] w-full md:full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto transition ease-in-out  duration-500 hover:scale-110 ">
               <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group">
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden ">
                   SPANISH
@@ -138,7 +138,7 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/n7ZQcdUJ')] w-full md:full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto ">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/n7ZQcdUJ')] w-full md:full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto transition ease-in-out  duration-500 hover:scale-110 ">
               <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group">
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden ">
                   CATALAN
@@ -169,7 +169,7 @@ const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/resources/sKlkHFzv')] w-full md:full lg:w-full h-32 md:h-[150px] lg:h-6/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto">
+            <div className=" bg-[url('https://dcoromina.s-ul.eu/resources/sKlkHFzv')] w-full md:full lg:w-full h-32 md:h-[150px] lg:h-6/6 bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto transition ease-in-out  duration-500 hover:scale-110">
               <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black from-0% to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group">
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden ">
                   ITALIAN
