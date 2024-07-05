@@ -169,21 +169,44 @@ const BookList = ({ books }) => {
                 height={50}
                 alt="image of author"
               />
-              <div className="flex flex-col w-96 ">
-                <div className="flex flex-row text-wrap">
-                  <p>Chief Technology Officer @ </p>{" "}
-                  <p className="text-orange-400 font-bold">Myoo.io</p>
-                </div>
-                <div className="">2022-present</div>
+              <div className="flex flex-col w-96 justify-center">
+                <p className="text-xl uppercase font-bold">Other Jobs </p>
               </div>
             </div>
-            <div>
-              <ul>
-                - In charge of building and mantaining the project
-                infraestructure
-              </ul>
-              <ul>- Responsible for building and managing a dev team</ul>
-              <ul>- Main software developer</ul>
+            <div className="flex flex-col items-start space-y-5">
+              {/* ---------- Item --------------- */}
+              <div className="flex flex-row items-center space-x-5 ">
+                <Image
+                  className=" object-scale-down max-h-full m-auto "
+                  src="https://dcoromina.s-ul.eu/icons/LpQOjNk5"
+                  width={30}
+                  height={30}
+                  alt="image of author"
+                />
+                <p>Basketball team coach</p>
+              </div>
+              {/* ---------- Item --------------- */}
+              <div className="flex flex-row items-center space-x-5 justify-start">
+                <Image
+                  className=" object-scale-down max-h-full m-auto "
+                  src="https://dcoromina.s-ul.eu/icons/z6GliilD"
+                  width={40}
+                  height={40}
+                  alt="image of author"
+                />
+                <p>Worked for Non Profit orgs against Leukemia</p>
+              </div>
+              {/* ---------- Item --------------- */}
+              <div className="flex flex-row items-center space-x-5 justify-start">
+                <Image
+                  className=" object-scale-down max-h-full m-auto "
+                  src="https://dcoromina.s-ul.eu/icons/5xZakCk5"
+                  width={40}
+                  height={40}
+                  alt="image of author"
+                />
+                <p>And other odd and summer jobs</p>
+              </div>
             </div>
           </div>
         </div>
