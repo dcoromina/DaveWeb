@@ -17,27 +17,27 @@ function NavSection() {
     },
   ];
   return (
-    <div className="text-white flex w-full flex-row justify-between py-5 text-base items-center ">
+    <div className="text-white flex w-3/4 flex-row justify-between py-5 text-base items-center">
       <Image
-        src="https://dcoromina.s-ul.eu/7o6fnBrL"
+        src="https://dcoromina.s-ul.eu/e9iRHmKf"
         width={50}
         height={50}
         alt="Logo of the author"
       />
-      <div className=" flex flex-row space-x-10 justify-center w-2/4 ">
-        <div className="  font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+      <div className=" flex flex-row justify-center space-x-3 md:space-x-5 w-2/4 ">
+        <div className=" font-light  cursor-pointer border-b-3 border-transparent hover:border-b-3 hover:border-orange-500 hidden md:block">
           About
         </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="font-light cursor-pointer hover:border-b-3 hover:border-orange-500 hidden md:block">
           Skills
         </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="font-light cursor-pointer hover:border-b-3 hover:border-orange-500 hidden md:block">
           Career
         </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="font-light cursor-pointer hover:border-b-3 hover:border-orange-500 hidden md:block">
           Projects
         </div>
-        <div className="font-bold cursor-pointer hover:border-b-2 hover:border-orange-400">
+        <div className="font-light cursor-pointer hover:border-b-3 hover:border-orange-500 hidden md:block">
           Contact
         </div>
       </div>

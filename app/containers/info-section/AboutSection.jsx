@@ -4,7 +4,10 @@ import LangComp from "@/app/components/LangComp";
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col items-center min-h-min py-5 space-y-10 w-full">
+    <div
+      id="AboutSection"
+      className="flex flex-col items-center min-h-min py-5 space-y-10 w-full"
+    >
       <div className="text-orange-400 font-bold text-3xl text-center">
         ABOUT ME
       </div>
@@ -74,7 +77,10 @@ const AboutSection = () => {
         <div className="flex flex-col items-center space-y-5 w-2/4 ">
           <h2 className="font-bold text-2xl white">LANGUAGES</h2>
           <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-5 md:space-y-0 lg:space-y-0 ">
-            <div className=" bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')]  md:w-full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto  transition ease-in-out  duration-500 hover:scale-110 ">
+            <div className=" relative bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')]  md:w-full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto  transition ease-in-out  duration-500 hover:scale-110 ">
+              <div className="absolute w-auto  h-auto bg-orange-500 text-white z-10 rounded-badge -top-3 -right-2 animate-pulse transition-none  ">
+                <p className="p-1 text-xs">Tap</p>
+              </div>
               <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group ">
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden">
                   ENGLISH
@@ -94,15 +100,15 @@ const AboutSection = () => {
                       alt="image of author"
                     />
                   </div>
-                </div>
-                <div className="w-full ">
-                  <p className="hidden group-hover:block group-hover:transition ease-in-out">
-                    - Studied and worked for 3 months in ireland as part of the
-                    Erasmus+ program
-                  </p>
-                  <p className="hidden group-hover:block group-hover:transition ease-in-out">
-                    - Cambridge certificate and title
-                  </p>
+                  <div className="w-full ">
+                    <p className="hidden group-hover:block group-hover:transition ease-in-out">
+                      - Studied and worked for 3 months in ireland as part of
+                      the Erasmus+ program
+                    </p>
+                    <p className="hidden group-hover:block group-hover:transition ease-in-out">
+                      - Cambridge certificate and title
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

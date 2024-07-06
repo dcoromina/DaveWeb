@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import React from "react";
 import Image from "next/image";
 
@@ -8,11 +7,7 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 
 function NavSection() {
@@ -21,7 +16,7 @@ function NavSection() {
       <NavbarContent>
         <NavbarBrand>
           <Image
-            src="https://dcoromina.s-ul.eu/7o6fnBrL"
+            src="https://dcoromina.s-ul.eu/e9iRHmKf"
             width={50}
             height={50}
             alt="Logo of the author"
@@ -33,15 +28,15 @@ function NavSection() {
         <NavbarItem>
           <Link
             color="primary"
-            href="#"
+            href="#AboutSection"
             className="hover:border-solid hover:border-orange-400 hover:border-b-3"
           >
             About
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
+        <NavbarItem>
           <Link
-            href="#"
+            href="#CareerSection"
             color="primary"
             aria-current="page"
             className="hover:border-solid hover:border-orange-400 hover:border-b-3"
@@ -52,7 +47,7 @@ function NavSection() {
         <NavbarItem>
           <Link
             color="primary"
-            href="#"
+            href="#ProjectsSection"
             className="hover:border-solid hover:border-orange-400 hover:border-b-3"
           >
             Projects
@@ -61,7 +56,7 @@ function NavSection() {
         <NavbarItem>
           <Link
             color="primary"
-            href="#"
+            href="#ContactSection"
             className="hover:border-solid hover:border-orange-400 hover:border-b-3"
           >
             Contact
@@ -70,9 +65,10 @@ function NavSection() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Link
-            color="primary"
-            href="www.linkedin.com/in/david-coromina-470635208"
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/dcoromina"
           >
             <Image
               src="https://dcoromina.s-ul.eu/logos/ezNndJcm"
@@ -80,7 +76,7 @@ function NavSection() {
               height={40}
               alt="Linkedin logo"
             />
-          </Link>
+          </a>
         </NavbarItem>
       </NavbarContent>
     </Navbar>

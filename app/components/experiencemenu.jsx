@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 const BookList = ({ books }) => {
   return (
-    <div className="flex flex-col items-center space-y-5">
+    <div id="CareerSection" className="flex flex-col items-center space-y-5 ">
       <p className="text-3xl font-bold text-orange-500 uppercase">Career</p>
       <div
         role="tablist"
-        className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md w-fit  "
+        className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md w-full   "
       >
         {/* Tab1 */}
         <input
@@ -17,6 +17,7 @@ const BookList = ({ books }) => {
           aria-label="Myoo.io"
           defaultChecked
         />
+
         <div role="tabpanel" className="tab-content p-10 ">
           <div className="flex flex-col items-start space-y-5 w-full text-small">
             <div className="flex flex-row justify-start space-x-5">
