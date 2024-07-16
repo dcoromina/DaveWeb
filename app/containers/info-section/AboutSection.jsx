@@ -12,7 +12,7 @@ const AboutSection = () => {
         ABOUT ME
       </div>
       <div className=" text-pretty text-center px-5 md:w-2/4">
-        Welcome to my portfolio! I'm David, a passionate and dedicated [Your
+        Welcome to my portfolio! I&aposm David, a passionate and dedicated [Your
         Profession] with a knack for bringing creative ideas to life.I
         specialize in [mention your key skills or areas of expertise] and I am
         committed to delivering high-quality work that exceeds expectations.{" "}
