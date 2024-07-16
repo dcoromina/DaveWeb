@@ -6,7 +6,7 @@ const BookList = ({ books }) => {
       <p className="text-3xl font-bold text-orange-500 uppercase">Career</p>
       <div
         role="tablist"
-        className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md "
+        className="tabs tabs-sm sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md "
       >
         {/* Tab1 */}
         <input
