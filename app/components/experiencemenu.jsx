@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 const BookList = ({ books }) => {
   return (
-    <div id="CareerSection" className="flex flex-col items-center space-y-5 ">
+    <div id="CareerSection" className="flex flex-col items-center gap-5 ">
       <p className="text-3xl font-bold text-orange-500 uppercase">Career</p>
       <div
         role="tablist"
-        className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md w-full   "
+        className="tabs tabs-xs sm:tabs-sm md:tabs-md lg:tabs-md xl:tabs-md "
       >
         {/* Tab1 */}
         <input
@@ -18,9 +18,9 @@ const BookList = ({ books }) => {
           defaultChecked
         />
 
-        <div role="tabpanel" className="tab-content p-10 ">
-          <div className="flex flex-col items-start space-y-5 w-full text-small">
-            <div className="flex flex-row justify-start space-x-5">
+        <div role="tabpanel" className="tab-content p-5 ">
+          <div className="flex flex-col items-start gap-5 w-full text-small">
+            <div className="flex flex-row  gap-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
                 src="https://dcoromina.s-ul.eu/career/UaOSuGDu"
@@ -28,7 +28,7 @@ const BookList = ({ books }) => {
                 height={40}
                 alt="image of author"
               />
-              <div className="flex flex-col w-96 ">
+              <div className="flex flex-col ">
                 <div className="flex flex-row ">
                   <p>Chief Technology Officer @ </p>{" "}
                   <p className="text-orange-400 font-bold">Myoo.io</p>
@@ -36,7 +36,7 @@ const BookList = ({ books }) => {
                 <div className="">2022-present</div>
               </div>
             </div>
-            <div className=" w-full">
+            <div className=" w-full ">
               <ul>
                 - In charge of building and mantaining the project
                 infraestructure
@@ -64,10 +64,15 @@ const BookList = ({ books }) => {
                 height={50}
                 alt="image of author"
               />
-              <div className="flex flex-col w-96 ">
+              <div className="flex flex-col  ">
                 <div className="flex flex-row text-wrap">
                   <p>Developer @ </p>{" "}
-                  <p className="text-orange-400 font-bold">MyHealp</p>
+                  <a
+                    href="https://www.myhealp.com"
+                    className="text-orange-400 font-bold"
+                  >
+                    MyHealp
+                  </a>
                 </div>
                 <div className="">2020-2022</div>
               </div>
@@ -101,10 +106,13 @@ const BookList = ({ books }) => {
                 height={50}
                 alt="image of author"
               />
-              <div className="flex flex-col w-96 ">
+              <div className="flex flex-col  ">
                 <div className="flex flex-row text-wrap">
                   <p>Web Developer @ </p>{" "}
-                  <a className="text-orange-400 font-bold" href="google.com">
+                  <a
+                    className="text-orange-400 font-bold"
+                    href="https://www.gourmetfuel.com"
+                  >
                     GourmetFuel
                   </a>
                 </div>
@@ -128,20 +136,25 @@ const BookList = ({ books }) => {
           className="tab checked:text-orange-500 checked:font-bold hover:text-orange-500 checked:border-b-2 font-bold "
           aria-label="SiOlot"
         />
-        <div role="tabpanel" className="tab-content p-10">
+        <div role="tabpanel" className="tab-content p-5">
           <div className="flex flex-col items-start space-y-5 w-full text-small">
             <div className="flex flex-row justify-start space-x-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
                 src="https://dcoromina.s-ul.eu/career/ZJpdRc5J"
-                width={50}
+                width={90}
                 height={50}
                 alt="image of author"
               />
-              <div className="flex flex-col w-96 ">
-                <div className="flex flex-row text-wrap">
+              <div className="flex flex-col ">
+                <div className="flex flex-row ">
                   <p>SysAdmin @ </p>{" "}
-                  <p className="text-orange-400 font-bold">SiOlot</p>
+                  <a
+                    href="https://www.siolot.es"
+                    className="text-orange-400 font-bold"
+                  >
+                    SiOlot
+                  </a>
                 </div>
                 <div className="">2017</div>
               </div>
@@ -161,18 +174,18 @@ const BookList = ({ books }) => {
           className="tab checked:text-orange-500 checked:font-bold hover:text-orange-500 checked:border-b-2 font-bold "
           aria-label="Misc."
         />
-        <div role="tabpanel" className="tab-content p-10">
-          <div className="flex flex-col items-start space-y-5 w-full text-small">
-            <div className="flex flex-row justify-start space-x-5">
+        <div role="tabpanel" className="tab-content p-5">
+          <div className="flex flex-col items-start gap-5 w-full text-small">
+            <div className="flex flex-row justify-start gap-5">
               <Image
                 className=" object-scale-down max-h-full m-auto "
                 src="https://dcoromina.s-ul.eu/career/N8jd9elH"
-                width={50}
-                height={50}
+                width={40}
+                height={40}
                 alt="image of author"
               />
-              <div className="flex flex-col w-96 justify-center">
-                <p className="text-xl uppercase font-bold">Other Jobs </p>
+              <div className="flex flex-col  justify-center">
+                <p className="text-base uppercase font-bold">Other Jobs </p>
               </div>
             </div>
             <div className="flex flex-col items-start space-y-5">

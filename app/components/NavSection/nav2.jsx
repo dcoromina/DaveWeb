@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function NavSection() {
   const navLinks = [
@@ -41,12 +42,14 @@ function NavSection() {
           Contact
         </div>
       </div>
-      <Image
-        src="https://dcoromina.s-ul.eu/logos/ezNndJcm"
-        width={35}
-        height={35}
-        alt="Clickable linked in logo"
-      />
+      <Link href={"https://www.linkedin.com/in/dcoromina"}>
+        <Image
+          src="https://dcoromina.s-ul.eu/logos/ezNndJcm"
+          width={35}
+          height={35}
+          alt="Clickable linked in logo"
+        />
+      </Link>
     </div>
   );
 }

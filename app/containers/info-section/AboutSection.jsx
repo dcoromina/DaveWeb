@@ -12,11 +12,11 @@ const AboutSection = () => {
         ABOUT ME
       </div>
       <div className=" text-pretty text-center px-5 md:w-2/4">
-        Welcome to my portfolio! I am [Your Name], a passionate and dedicated
-        [Your Profession] with a knack for bringing creative ideas to life.I
+        Welcome to my portfolio! I'm David, a passionate and dedicated [Your
+        Profession] with a knack for bringing creative ideas to life.I
         specialize in [mention your key skills or areas of expertise] and I am
         committed to delivering high-quality work that exceeds expectations.{" "}
-        <br></br>
+        <br />
         <br />
         My journey in [Your Profession] has been driven by a love for innovation
         and a desire to continuously learn and grow. Each project I undertake is
@@ -85,7 +85,7 @@ const AboutSection = () => {
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden">
                   ENGLISH
                 </div>
-                <div className="flex flex-row items-center space-x-2">
+                <div className="flex flex-row items-center gap-2">
                   <div className="text-xl md:text-2xl font-bold text-orange-500 ">
                     <p className="uppercase drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] group-hover:hidden">
                       C2
@@ -100,7 +100,7 @@ const AboutSection = () => {
                       alt="image of author"
                     />
                   </div>
-                  <div className="w-full ">
+                  <div className="group-hover:w-full ">
                     <p className="hidden group-hover:block group-hover:transition ease-in-out">
                       - Studied and worked for 3 months in ireland as part of
                       the Erasmus+ program
@@ -135,7 +135,7 @@ const AboutSection = () => {
                 </div>
                 <div className="w-full">
                   <p className="hidden group-hover:block">
-                    - Learned at childhood
+                    - Learnt since childhood
                   </p>
                   <p className="hidden group-hover:block">
                     - Used to speak and to comprehend spanish speaking people

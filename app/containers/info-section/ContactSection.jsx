@@ -59,7 +59,7 @@ const ContactSection = () => {
           <Link href="github.com">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/dcoromina">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
