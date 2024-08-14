@@ -18,7 +18,7 @@ function NavSection() {
     },
   ];
   return (
-    <div className="text-white flex w-3/4 flex-row justify-between py-5 text-base items-center">
+    <div className="text-white flex w-full flex-row justify-between py-5 text-base items-center">
       <Image
         src="https://dcoromina.s-ul.eu/e9iRHmKf"
         width={50}

@@ -11,8 +11,8 @@ const AboutSection = () => {
       <div className="text-orange-400 font-bold text-3xl text-center">
         ABOUT ME
       </div>
-      <div className=" text-pretty text-center px-5 md:w-2/4">
-        Welcome to my portfolio! I&aposm David, a passionate and dedicated [Your
+      <div className=" text-pretty text-center px-5 sm:w-full md:w-5/6">
+        Welcome to my portfolio! I'm David, a passionate and dedicated [Your
         Profession] with a knack for bringing creative ideas to life.I
         specialize in [mention your key skills or areas of expertise] and I am
         committed to delivering high-quality work that exceeds expectations.{" "}
@@ -79,7 +79,7 @@ const AboutSection = () => {
           <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-5 md:space-y-0 lg:space-y-0 ">
             <div className=" relative bg-[url('https://dcoromina.s-ul.eu/pkItsxhG')]  md:w-full lg:w-full h-32 md:h-[150px] lg:h-[150px] bg-cover bg-center bg-no-repeat  rounded-xl flex items-end justify-end hover:h-auto  transition ease-in-out  duration-500 hover:scale-110 ">
               <div className="absolute w-auto  h-auto bg-orange-500 text-white z-10 rounded-badge -top-3 -right-2 animate-pulse transition-none  ">
-                <p className="p-1 text-xs">Tap</p>
+                <p className="p-1 text-xs md:hidden">Tap</p>
               </div>
               <div className="flex flex-col items-end h-full md:h-full lg:h-full px-3 py-3 md:px-5 lg:px-5  rounded-b-xl w-full justify-center rounded-xl bg-gradient-to-l from-black to-70% to-transparent hover:backdrop-blur-sm hover:border-orange-500 hover:border-1 hover:bg-black/50 group ">
                 <div className="text-2xl md:text-3xl font-bold group-hover:hidden">

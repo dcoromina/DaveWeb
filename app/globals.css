@@ -60,3 +60,20 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(84, 84, 84);
 }
+
+.tab__button {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tab__button:hover {
+  color: aqua;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.tab__button:active {
+  color: red;
+  border-bottom: 2px solid whitesmoke;
+}

@@ -40,6 +40,6 @@ const config: Config = {
     primary: colors.red,
   },
   darkMode: "class",
-  plugins: [nextui(), require("daisyui")],
+  plugins: [nextui(), require("daisyui"), require("tailwindcss-animated")],
 };
 export default config;

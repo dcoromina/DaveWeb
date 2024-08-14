@@ -12,7 +12,7 @@ import {
 
 function NavSection() {
   return (
-    <Navbar className="bg-transparent" position="static">
+    <Navbar className="bg-transparent animate-fade" position="static">
       <NavbarContent>
         <NavbarBrand>
           <Image
