@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TabContent({ expData, activeTab }) {
   if (activeTab !== 4) {
     return (
-      <div className=" space-y-5 w-11/12 ">
+      <div className=" space-y-5 w-11/12 flex flex-col">
         <div className="flex flex-col">
           <div className="flex flex-row items-center gap-3">
             <img
@@ -29,6 +29,23 @@ export default function TabContent({ expData, activeTab }) {
           <p>{expData[activeTab].item1}</p>
           <p>{expData[activeTab].item2}</p>
           <p>{expData[activeTab].item3}</p>
+        </div>
+        <div className=" flex flex-row space-x-10 items-center justify-center">
+          <img
+            src={expData[activeTab].tech1}
+            alt="/"
+            className="w-10 h-auto max-w-10"
+          />
+          <img
+            src={expData[activeTab].tech2}
+            alt="/"
+            className="w-10 h-auto max-w-10"
+          />
+          <img
+            src={expData[activeTab].tech3}
+            alt="/"
+            className="w-10 h-auto max-w-10"
+          />
         </div>
       </div>
     );

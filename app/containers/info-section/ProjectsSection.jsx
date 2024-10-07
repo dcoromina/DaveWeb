@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ProjectsSection = () => {
   return (
-    <div className="w-full h-svh  flex flex-col gap-2">
+    <div className="w-full  flex flex-col gap-2">
       <div className="text-orange-400 text-7xl font-bold w-1/4  ">
         MY PROJECTS
       </div>

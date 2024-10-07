@@ -5,17 +5,16 @@ const AboutSection = () => {
   return (
     <div
       id="AboutSection"
-      className="flex flex-col items-center min-h-min py-5 space-y-10 w-full"
+      className="flex flex-col items-center min-h-min md:h-svh py-5 space-y-10 w-full"
     >
       <div className="text-orange-400 font-bold text-3xl text-center">
         ABOUT ME
       </div>
-      <div className=" text-pretty text-center px-5 sm:w-full md:w-5/6">
-        Welcome to my portfolio! I&aposm David, a passionate and dedicated [Your
-        Profession] with a knack for bringing creative ideas to life.I
-        specialize in [mention your key skills or areas of expertise] and I am
-        committed to delivering high-quality work that exceeds expectations.{" "}
-        <br />
+      <div className=" text-pretty text-center sm:w-full md:w-5/6">
+        Welcome to my portfolio! Im a passionate and dedicated developer with a
+        knack for bringing creative ideas to life.I specialize in [mention your
+        key skills or areas of expertise] and I am committed to delivering
+        high-quality work that exceeds expectations. <br />
         <br />
         My journey in [Your Profession] has been driven by a love for innovation
         and a desire to continuously learn and grow. Each project I undertake is
@@ -29,8 +28,8 @@ const AboutSection = () => {
         {/* ******************** Hobbies block ******************* */}
         <div className="flex flex-col items-center space-y-5  md:w-1/2 ">
           <h2 className="font-bold text-2xl ">HOBBIES</h2>
-          <div className="grid grid-cols-1 gap-4  md:grid-cols-2 lg:grid-cols-2">
-            <div className="w-50 h-50 p-5 rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400  ">
+          <div className="grid grid-cols-1 gap-5  md:grid-cols-2 lg:grid-cols-2">
+            <div className="w-50 h-32 p-5 rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400  ">
               <Image
                 className=" rounded-br-xl rounded-md"
                 src="https://dcoromina.s-ul.eu/icons/lFPl9AWz"
@@ -40,7 +39,7 @@ const AboutSection = () => {
               />
               <p className="text-center text-md">Cooking</p>
             </div>
-            <div className="w-50 h-50  p-5 rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400">
+            <div className="w-50 h-32  p-5 rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400">
               <Image
                 className=" rounded-br-xl rounded-md"
                 src="https://dcoromina.s-ul.eu/icons/CEYetTpH"
@@ -50,7 +49,7 @@ const AboutSection = () => {
               />
               <p className="text-center">Reading</p>
             </div>
-            <div className="w-50 h-50 p-5  rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400">
+            <div className="w-50 h-32 p-5  rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400">
               <Image
                 className=" rounded-br-xl rounded-md"
                 src="https://dcoromina.s-ul.eu/icons/1rPi3d8L"
@@ -60,7 +59,7 @@ const AboutSection = () => {
               />
               <p className="text-center">Traveling</p>
             </div>
-            <div className="  p-5 rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400">
+            <div className="h-32  p-5 rounded-xl bg-[#18191E] border border-[#33353F] hover:border-opacity-40 hover:shadow-md hover:shadow-orange-400">
               <Image
                 className=" rounded-br-xl rounded-md"
                 src="https://dcoromina.s-ul.eu/icons/H4kJoUNy"

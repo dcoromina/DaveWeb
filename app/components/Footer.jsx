@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white w-full">
       <div className="container py-10 flex justify-between">
         <Image
-          src="https://dcoromina.s-ul.eu/7o6fnBrL"
+          src="https://dcoromina.s-ul.eu/logos/s5pYleyr"
           width={50}
           height={50}
           alt="Logo of the author"
