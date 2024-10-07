@@ -3,8 +3,8 @@ import Image from "next/image";
 import skillsBar from "../../components/skillsBar";
 const CareerSection = () => {
   return (
-    <div className=" w-screen flex flex-col space-y-7 items-center py-5 h-svh">
-      <div className="flex flex-col  items-start px-20">
+    <div className=" w-screen flex flex-col space-y-10 items-center py-5 h-svh">
+      <div className="flex flex-col  items-start ">
         <div className="text-orange-400 font-bold text-4xl md:text-7xl lg:text-7xl"></div>
       </div>
 
