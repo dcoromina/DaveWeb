@@ -77,7 +77,7 @@ const ExpMenu = () => {
   return (
     <div
       id="CareerSection"
-      className="flex flex-col items-center gap-5 pt-5  w-full"
+      className="flex flex-col items-center gap-5   w-full"
     >
       <p className="text-3xl lg:text-6xl font-bold text-orange-500 uppercase">
         Career

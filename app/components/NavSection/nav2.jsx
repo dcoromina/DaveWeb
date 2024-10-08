@@ -45,8 +45,8 @@ function NavSection() {
       <Link href={"https://www.linkedin.com/in/dcoromina"}>
         <Image
           src="https://dcoromina.s-ul.eu/logos/ezNndJcm"
-          width={35}
-          height={35}
+          width={30}
+          height={30}
           alt="Clickable linked in logo"
         />
       </Link>

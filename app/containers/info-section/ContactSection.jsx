@@ -42,7 +42,7 @@ const ContactSection = () => {
   return (
     <section
       id="ContactSection"
-      className="grid md:grid-cols-2 my-12 md:my-12  gap-4 relative"
+      className="grid md:grid-cols-2 my-12 md:my-12  gap-4 relative px-2"
     >
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
