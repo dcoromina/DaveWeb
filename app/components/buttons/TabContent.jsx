@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 export default function TabContent({ expData, activeTab }) {
-  if (activeTab !== 4) {
+  if (activeTab !== 5) {
     return (
-      <div className=" space-y-5 w-11/12 flex flex-col">
-        <div className="flex flex-col">
-          <div className="flex flex-row items-center gap-3">
+      <div className="  space-y-5 w-11/12 flex flex-col justify-center items-center px-6">
+        <div className="flex flex-col items-start justify-center w-fit">
+          <div className="flex flex-row items-center gap-3  ">
             <img
               src={expData[activeTab].logo}
               alt="/"
@@ -25,7 +25,7 @@ export default function TabContent({ expData, activeTab }) {
             </div>
           </div>
         </div>
-        <div className="space-y-1 text-sm">
+        <div className="space-y-1 text-sm w-fit">
           <p>{expData[activeTab].item1}</p>
           <p>{expData[activeTab].item2}</p>
           <p>{expData[activeTab].item3}</p>

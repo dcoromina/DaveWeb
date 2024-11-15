@@ -5,7 +5,20 @@ import TabButton from "./buttons/TabButtons.jsx";
 import TabContent from "./buttons/TabContent.jsx";
 const expData = [
   {
-    id: 1,
+    id: 6,
+    company: "Sola Tech",
+    years: "Actuality",
+    logo: "https://dcoromina.s-ul.eu/career/SRdvMmjv",
+    position: "Founder",
+    tech1: "https://dcoromina.s-ul.eu/language-logos/8rfCSm72",
+    tech2: "https://dcoromina.s-ul.eu/language-logos/YnIFmQqm",
+    tech3: "https://dcoromina.s-ul.eu/language-logos/aWJsz0n9",
+    item1: "- Mounted and repaired different systems",
+    item2: "- Helped installing multiple servers",
+    item3: "- Developed basic webs",
+  },
+  {
+    id: 5,
     company: "Myoo.io",
     years: "2022 - present",
     logo: "https://dcoromina.s-ul.eu/career/UaOSuGDu",
@@ -18,7 +31,7 @@ const expData = [
     item3: "- Main software developer",
   },
   {
-    id: 2,
+    id: 4,
     company: "MyHealp",
     years: "2020 - 2022",
     logo: "https://dcoromina.s-ul.eu/career/vuc1n8GY",
@@ -44,7 +57,7 @@ const expData = [
     item3: "- Part of my Erasmus+ project",
   },
   {
-    id: 4,
+    id: 2,
     company: "SiOlot",
     years: "2017",
     logo: "https://dcoromina.s-ul.eu/career/ZJpdRc5J",
@@ -56,8 +69,9 @@ const expData = [
     item2: "- Helped installing multiple servers",
     item3: "- Developed basic webs",
   },
+
   {
-    id: 5,
+    id: 1,
     company: "Misc.",
 
     logo: "https://dcoromina.s-ul.eu/career/N8jd9elH",
