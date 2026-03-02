@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import TabButton from "./buttons/TabButtons.jsx";
 import TabContent from "./buttons/TabContent.jsx";
+
 const expData = [
   {
     id: 6,
@@ -89,22 +90,31 @@ const expData = [
 const ExpMenu = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div
-      id="CareerSection"
-      className="flex flex-col items-center gap-5   w-full"
+    <section
+      id="ExperienceSection"
+      className="w-full section-spacing"
     >
-      <p className="text-3xl lg:text-6xl font-bold text-orange-500 uppercase">
-        Career
-      </p>
-      <div className="flex flex-col items-center gap-5">
-        <TabButton
-          expData={expData}
-          setActiveTab={setActiveTab}
-          activeTab={activeTab}
-        />
-        <TabContent activeTab={activeTab} expData={expData} />
+      <div className="container mx-auto px-4 space-y-12">
+        <div className="text-center space-y-4 fade-in-up">
+          <h2 className="text-4xl md:text-5xl font-bold text-gradient uppercase">
+            Experience
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            My professional journey through various roles and companies.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center gap-8 fade-in-up stagger-1">
+          <TabButton
+            expData={expData}
+            setActiveTab={setActiveTab}
+            activeTab={activeTab}
+          />
+          <TabContent activeTab={activeTab} expData={expData} />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
+
 export default ExpMenu;
