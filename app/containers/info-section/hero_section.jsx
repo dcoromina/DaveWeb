@@ -93,8 +93,8 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div
-        className="absolute bottom-1 left-1/2 -translate-x-1/2"
+      {/* <motion.div
+        className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y: [0, 10, 0] }}
         transition={{ delay: 1.5, duration: 2, repeat: Infinity }}
@@ -104,7 +104,7 @@ const HeroSection = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </a>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

@@ -63,7 +63,7 @@ const AboutSection = () => {
             <h2 className="font-bold text-2xl ">HOBBIES</h2>
             <div className="grid grid-cols-1 gap-5  md:grid-cols-2 lg:grid-cols-2">
               {hobbies.map((hobby, index) => (
-                <div key={hobby.name} className={`glass p-6 rounded-xl flex flex-col items-center justify-center gap-4 hover:glass-strong hover:border-primary/30 transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-primary/10 fade-in stagger-${index + 1}`}>
+                <div key={hobby.name} className={`glass h-40 p-6 rounded-xl flex flex-col items-center justify-center gap-4 hover:glass-strong hover:border-primary/30 transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-primary/10 fade-in stagger-${index + 1}`}>
                   <div className="relative w-16 h-16 group-hover:scale-110 transition-transform duration-300">
                     <Image src={hobby.icon} fill className="object-contain" alt={hobby.name} />
                   </div>
