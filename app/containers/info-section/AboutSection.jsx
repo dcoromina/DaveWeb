@@ -57,12 +57,11 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-
-          {/* Hobbies */}
-          <div className="space-y-8 fade-in-up stagger-1">
-            <h3 className="text-2xl font-bold text-white text-center lg:text-left">Hobbies</h3>
-            <div className="grid grid-cols-2 gap-4">
+        <div className="flex flex-row justify-evenly  md:space-y-0 lg:space-y-0 md:flex-row lg:flex-row md:justify-evenly lg:justify-evenly w-full  ">
+          {/* ******************** Hobbies block ******************* */}
+          <div className="flex flex-col items-center space-y-5  md:w-auto ">
+            <h2 className="font-bold text-2xl ">HOBBIES</h2>
+            <div className="grid grid-cols-1 gap-5  md:grid-cols-2 lg:grid-cols-2">
               {hobbies.map((hobby, index) => (
                 <div key={hobby.name} className={`glass p-6 rounded-xl flex flex-col items-center justify-center gap-4 hover:glass-strong hover:border-primary/30 transition-all duration-300 group hover:scale-105 hover:shadow-lg hover:shadow-primary/10 fade-in stagger-${index + 1}`}>
                   <div className="relative w-16 h-16 group-hover:scale-110 transition-transform duration-300">
@@ -73,18 +72,17 @@ const AboutSection = () => {
               ))}
             </div>
           </div>
-
-          {/* Languages */}
-          <div className="space-y-8 fade-in-up stagger-2">
-            <h3 className="text-2xl font-bold text-white text-center lg:text-left">Languages</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {/* ********************** Languages block ******************* */}
+          <div className="flex flex-col items-center space-y-5 w-2/4 ">
+            <h2 className="font-bold text-2xl white">LANGUAGES</h2>
+            <div className="md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 w-full space-y-5 md:space-y-0 lg:space-y-0 ">
               {languages.map((lang) => (
                 <div key={lang.name} className="group relative h-40 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primary/10">
                   <Image src={lang.bg} fill className="object-cover transition-transform duration-500 group-hover:scale-110" alt={lang.name} />
                   <div className="absolute inset-0 bg-black/60 group-hover:bg-black/75 transition-colors flex flex-col justify-end p-4">
 
                     {/* Default View */}
-                    <div className="flex items-center justify-between group-hover:opacity-0 transition-opacity absolute bottom-4 left-4 right-4">
+                    <div className="flex flex-col items-end justify-between group-hover:opacity-0 transition-opacity absolute bottom-4 left-4 right-4">
                       <span className="text-xl font-bold text-white">{lang.name}</span>
                       <div className="flex items-center gap-2">
                         <span className="text-primary font-bold">{lang.level}</span>
@@ -105,9 +103,7 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
-          </div>
-
-        </div>
+          </div> </div>
       </div>
     </section>
   );

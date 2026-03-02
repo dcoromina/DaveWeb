@@ -43,7 +43,7 @@ const HeroSection = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            Developer, entrepreneur, athlete, dreamer, and all-around lunatic.
+            Developer, entrepreneur, athlete, dreamer.
           </motion.p>
 
           <motion.div
