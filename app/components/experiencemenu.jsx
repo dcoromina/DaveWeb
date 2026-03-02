@@ -7,16 +7,17 @@ import TabContent from "./buttons/TabContent.jsx";
 const expData = [
   {
     id: 6,
-    company: "Sola Tech",
+    company: "AISelva",
     years: "Actuality",
-    logo: "https://dcoromina.s-ul.eu/career/SRdvMmjv",
-    position: "Founder",
+    logo: "https://dcoromina.s-ul.eu/logos/JYFsOuPS",
+    position: "Lead Tech",
     tech1: "https://dcoromina.s-ul.eu/language-logos/8rfCSm72",
     tech2: "https://dcoromina.s-ul.eu/language-logos/YnIFmQqm",
     tech3: "https://dcoromina.s-ul.eu/language-logos/aWJsz0n9",
-    item1: "- Mounted and repaired different systems",
-    item2: "- Helped installing multiple servers",
-    item3: "- Developed basic webs",
+    item1: "- Led the development and deployment of an operational platform used to coordinate ambulance services and staff at major Spanish airports for CTS and Avanta Group",
+    item2: "- Worked with a mixture of no-code and code to deliver solutions for clients",
+    item3: "- Investigated New AI tools to improve productivity",
+
   },
   {
     id: 5,
@@ -29,7 +30,7 @@ const expData = [
     tech3: "https://dcoromina.s-ul.eu/language-logos/NjMedOqe",
     item1: "- In charge of building and mantaining the project infraestructure",
     item2: "- Responsible for building and managing a dev team",
-    item3: "- Main software developer",
+    item3: "- Main developer",
   },
   {
     id: 4,

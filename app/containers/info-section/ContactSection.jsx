@@ -56,11 +56,10 @@ const ContactSection = () => {
               I&apos;m currently working on my new project, but my inbox is always open for new opportunities.
               Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
             </p>
+            <p className="text-gray-300 text-lg max-w-md leading-relaxed">If you send it through linkedin i won&apos;t miss it</p>
 
             <div className="flex gap-6">
-              <Link href="https://github.com/dcoromina" target="_blank" className="relative w-12 h-12 flex items-center justify-center rounded-full glass hover:border-primary/50 transition-all duration-300 group hover:scale-110">
-                <Image src="/github-icon.svg" width={24} height={24} className="invert group-hover:scale-110 transition-transform" alt="Github" />
-              </Link>
+
               <Link href="https://www.linkedin.com/in/dcoromina" target="_blank" className="relative w-12 h-12 flex items-center justify-center rounded-full glass hover:border-primary/50 transition-all duration-300 group hover:scale-110">
                 <Image src="/linkedin-icon.svg" width={24} height={24} className="group-hover:scale-110 transition-transform" alt="LinkedIn" />
               </Link>

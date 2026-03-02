@@ -79,10 +79,10 @@ const AboutSection = () => {
               {languages.map((lang) => (
                 <div key={lang.name} className="group relative h-40 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primary/10">
                   <Image src={lang.bg} fill className="object-cover transition-transform duration-500 group-hover:scale-110" alt={lang.name} />
-                  <div className="absolute inset-0 bg-black/60 group-hover:bg-black/75 transition-colors flex flex-col justify-end p-4">
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/75 transition-colors flex flex-col justify-end p-4">
 
                     {/* Default View */}
-                    <div className="flex flex-col items-end justify-between group-hover:opacity-0 transition-opacity absolute bottom-4 left-4 right-4">
+                    <div className="flex flex-col  items-end justify-between group-hover:opacity-0 transition-opacity absolute bottom-4 left-4 right-4">
                       <span className="text-xl font-bold text-white">{lang.name}</span>
                       <div className="flex items-center gap-2">
                         <span className="text-primary font-bold">{lang.level}</span>
