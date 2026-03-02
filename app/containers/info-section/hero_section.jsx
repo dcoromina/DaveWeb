@@ -59,7 +59,7 @@ const HeroSection = () => {
               Contact Me
             </a>
             <a
-              href="https://dcoromina.s-ul.eu/F6nUpY4u"
+              href="https://dcoromina.s-ul.eu/J349DFlY"
               download="CV"
               className="px-8 py-3 rounded-full bg-surface border border-white/10 text-white font-semibold hover:bg-white/5 hover:border-white/20 transition-all hover:scale-105 active:scale-95"
             >
