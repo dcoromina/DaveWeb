@@ -44,7 +44,7 @@ export default function TabContent({ expData, activeTab }) {
             </p>
           </div>
 
-          <div className="flex flex-row gap-6 items-center justify-center pt-4 border-t border-white/10">
+          {/*      <div className="flex flex-row gap-6 items-center justify-center pt-4 border-t border-white/10">
             <div className="relative w-10 h-10 hover:scale-110 transition-transform duration-300">
               <img
                 src={expData[activeTab].tech1}
@@ -66,7 +66,7 @@ export default function TabContent({ expData, activeTab }) {
                 className="w-full h-full object-contain"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );
