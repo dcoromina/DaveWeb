@@ -37,14 +37,27 @@ const ProjectsSection = () => {
       progress: "Needs update"
     },
     {
+      title: "Achievements and real world projects",
+      description: "Some of the achievements and real world projects I have done throughout my entire professional career.",
+      fullDescription: "Some of my achievements are: -Having a stand for my company in the Mobile world congress, -Deploying a tournament personalized sports card maker where you take an image of the kid and it turned it into a sports card with the information of the tournament, -Deploying a whatsapp and telegram bot adjusted to the needs of sporting events",
+      image: "https://dcoromina.s-ul.eu/image/AYY8zrGV",
+      media: [
+        { type: "image", url: "https://dcoromina.s-ul.eu/image/AYY8zrGV" },
+        { type: "video", url: "https://dcoromina.s-ul.eu/image/YLAqkNvH" },
+        { type: "video", url: "https://dcoromina.s-ul.eu/image/YzSoWrWB" }
+      ],
+      tags: ["Godot", "GDScript"],
+      type: "Personal",
+      progress: "Ongoing"
+    },
+    {
       title: "2D Boxing Game",
       description: "Mobile application for tracking workouts and nutrition.",
       fullDescription: "A fully fledged mobile application designed to help users track their daily fitness goals, log workouts, and monitor nutritional intake. Includes real-time synchronization and detailed progress analytics.",
       image: "https://dcoromina.s-ul.eu/megalo/mqmBaO5t",
       media: [
         { type: "image", url: "https://dcoromina.s-ul.eu/megalo/mqmBaO5t" },
-        { type: "image", url: "https://dcoromina.s-ul.eu/megalo/mAgufKKm" },
-        { type: "image", url: "https://dcoromina.s-ul.eu/megalo/8echmAHv" }
+        { type: "image", url: "https://dcoromina.s-ul.eu/megalo/mAgufKKm" }
       ],
       tags: ["Godot", "GDScript"],
       type: "Personal",
