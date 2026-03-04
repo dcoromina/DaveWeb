@@ -44,11 +44,10 @@ const ProjectsSection = () => {
       media: [
         { type: "image", url: "https://dcoromina.s-ul.eu/image/AYY8zrGV" },
         { type: "video", url: "https://dcoromina.s-ul.eu/image/YLAqkNvH" },
-        { type: "video", url: "https://dcoromina.s-ul.eu/image/YzSoWrWB" }
       ],
-      tags: ["Godot", "GDScript"],
-      type: "Personal",
-      progress: "Ongoing"
+      tags: ["", ""],
+      type: "Professional",
+      progress: "Completed"
     },
     {
       title: "2D Boxing Game",
